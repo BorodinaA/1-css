@@ -1,0 +1,14 @@
+@media (min-width: 500px) {
+    .main-product__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+
+        grid-template-columns: repeat(auto-fit);
+    }
+    
+}
+    
+@media (min-width: 500px) {}
+
+

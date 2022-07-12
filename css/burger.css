@@ -1,0 +1,13 @@
+#buger-checkbox {
+    display: none;
+}
+
+.header-nav__menu {
+    display: none;
+}
+
+#buger-checkbox:checked ~ .header-nav__menu {
+    display: flex;
+}
+
+
